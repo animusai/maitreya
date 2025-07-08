@@ -211,7 +211,9 @@ void AshtakootaExpert::update()
 	 */
 	int dnak1 = (int)nak2 - (int)nak1;
 	if ( dnak1 < 0 ) dnak1 += 27;
-	dnak1++;
+
+	// Fix bug #83
+	//dnak1++;
 	tara1 = dnak1 % 9;
 	if (( tara1 == 3 ) || ( tara1 == 5 ) || ( tara1 == 7 ))
 	{
@@ -219,10 +221,11 @@ void AshtakootaExpert::update()
 	}
 	else ptara = 1.5;
 
-	// TODO
 	int dnak2 = (int)nak1 - (int)nak2;
 	if ( dnak2 < 0 ) dnak2 += 27;
-	dnak2++;
+
+	// Fix bug #83
+	//dnak2++; 
 	tara2 = dnak2 % 9;
 	if (( tara2 == 3 ) || ( tara2 == 5 ) || ( tara2 == 7 ))
 	{
