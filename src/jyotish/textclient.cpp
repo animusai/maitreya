@@ -164,7 +164,7 @@ static const wxCmdLineEntryDesc cmdLineDesc[] =
 		wxCMD_LINE_VAL_NUMBER, wxCMD_LINE_PARAM_OPTIONAL },
 	{ wxCMD_LINE_OPTION, wxEmptyString1, wxT1("dasas-compact"), wxT1("Show Dasa nb #n (compact form)"),
 		wxCMD_LINE_VAL_NUMBER, wxCMD_LINE_PARAM_OPTIONAL },
-	{ wxCMD_LINE_OPTION, wxEmptyString1, wxT1("dasas-long"), wxT1("Show Dasa nb #n (short form)"),
+	{ wxCMD_LINE_OPTION, wxEmptyString1, wxT1("dasas-long"), wxT1("Show Dasa nb #n (long form)"),
 		wxCMD_LINE_VAL_NUMBER, wxCMD_LINE_PARAM_OPTIONAL },
 	{ wxCMD_LINE_SWITCH, wxEmptyString1, wxT1("aspects"),   wxT1("Show aspects"),
 		wxCMD_LINE_VAL_STRING, wxCMD_LINE_PARAM_OPTIONAL },
